@@ -1,9 +1,9 @@
-<breakfast> ::= <protein> "with" <breakfast> "on the side" | <protein> | <bread>
+breakfast ::= protein "with" breakfast "on the side" | protein | bread
 
-<protein> ::= <crispiness> "crispy" "bacon" | "sausage" | <cooked> "eggs"
+protein ::= crispiness "crispy" "bacon" | "sausage" | cooked "eggs"
 
-<crispiness> ::= "really" | "really" <crispiness>
+crispiness ::= "really" | "really" crispiness
 
-<cooked> ::= "scrambled" | "poached" | "fried"
+cooked ::= "scrambled" | "poached" | "fried"
 
-<bread> ::= "toast" | "bisucuits" | "English muffin"
+bread ::= "toast" | "bisucuits" | "English muffin"
